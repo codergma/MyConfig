@@ -1,3 +1,5 @@
-"
+"显示行号
 :set number
+"设置tab宽度
+:set ts=4
 
