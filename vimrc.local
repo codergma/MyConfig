@@ -1,5 +1,6 @@
-"显示行号
+"设置显示行号
 :set number
 "设置tab宽度
-:set ts=4
-
+:set tabstop=4
+"设置缩进宽度，命令<<和>>会收到影响
+:set shiftwidth=4
