@@ -1,0 +1,12 @@
+属性重载：
+		public mixed __get(string $name),
+		public  __set(string $name, mixed $val)
+		在给不可访问的属性赋值时 __set()调用
+		在读取不可访问的属性时   __get()调用
+		
+		public bool __isset(string $name)
+		public bool __unset(string $name)
+		在对不可访问的属性调用isset(),empty()时__isset()会被调用
+		在对不可访问的属性调用unset()时，__unset()会被调用
+		 
+
