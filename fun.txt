@@ -1,0 +1,15 @@
+(1)require();包含并运行指定文件。
+	文件搜索路径：
+		1.指定路径
+		2.include_path
+		3.当前目录
+	作用范围：
+		继承所在行的变量范围
+
+(2)define定义常量，defined判断常量是否定义。
+
+(3)str_replace()
+
+(4)ini_get, ini_set
+
+(5)
