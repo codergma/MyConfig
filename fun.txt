@@ -12,4 +12,6 @@
 
 (4)ini_get, ini_set
 
-(5)
+(5)gethostbyname()
+
+(6)dns_get_mx()
