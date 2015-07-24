@@ -4,3 +4,12 @@
 :set tabstop=4
 "设置缩进宽度，命令<<和>>会收到影响
 :set shiftwidth=4
+"关于vim的编码方式
+"encoding:  根据encoding的值来设置buffer,菜单文本,消息文本的字符编码方式
+"fileencodings: 打开文件时根据此选项探测文件编码方式，找到合适的编码方式，设置fileencoding为探测到的编码方式
+"fileencoding: vim当前编辑的文件的编码方式，vim保存文件会将文件保存为这种字符编码方式
+"termencoding: 所工作的终端的编码方式
+:set encoding=utf-8
+:set fileencodings=utf-8,gb2312
+:set fileencoding =utf-8
+
