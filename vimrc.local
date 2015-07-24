@@ -4,6 +4,9 @@
 :set tabstop=4
 "设置缩进宽度，命令<<和>>会收到影响
 :set shiftwidth=4
+"设置自动缩进，即每行的缩进值与上一行相同
+:set autoindent
+
 "关于vim的编码方式
 "encoding:  根据encoding的值来设置buffer,菜单文本,消息文本的字符编码方式 
 "不管文件的编码如何，不管文件如何显示和输入，vim内部使用的编码时utf-8，这是国际支持的基础。
