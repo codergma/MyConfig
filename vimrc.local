@@ -34,4 +34,4 @@
 ":reg命令查看剪切板的内容
 "如果不能使用系统剪切板，sudo apt-get install vim-gnome
 
-new2
+master
