@@ -2,8 +2,10 @@
 :set number
 "设置tab宽度
 :set tabstop=4
-"设置缩进宽度，命令<<和>>会收到影响
+"设置自送缩进使用的空白长度，命令<<和>>会收到影响
 :set shiftwidth=4
+"tab替换为N个空格"
+set expandtab
 "设置自动缩进，即每行的缩进值与上一行相同
 :set autoindent
 
